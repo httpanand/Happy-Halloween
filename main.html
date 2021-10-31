@@ -1,0 +1,24 @@
+<html>
+<body onmouseover="ply()">
+<head>
+	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	    <title> HAPPY HALLOWEEN | 2021 | OCTOBER 31 </title>
+	    
+</head>
+    <link rel="icon" href="assets/lantern.png">
+	<link rel="stylesheet" href="style.css">
+	<audio id="aud" src="audio/cry.mp3"></audio>
+
+	 
+<div class="container">
+	<a id="pb" class="playbutton"><h1 class="centered" id="heading"><blink> HAPPY HALLOWEEN </blink> </h1> </a>
+	<div id="ghost"> <img src = "assets/ghost.png"> </div>
+</div>
+
+<script>
+	function ply(){
+		document.getElementById('pb').click();
+		document.getElementById('aud').play();
+	}
+
+</script>

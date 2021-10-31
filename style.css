@@ -1,0 +1,66 @@
+@font-face{
+	font-family: ghost;
+	src: url('font/ghost.ttf');
+}
+
+body{
+	background-image: url('assets/halloween.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	font-family: ghost;
+	color: #ff7518;
+	overflow-y: hidden;
+
+}
+
+#heading{
+	font-size: 100px;
+	padding-top : 220px;
+	padding-left: 590px;
+	text-shadow: 1px 1px 2px black, 0 0 25px #ff7518, 0 0 5px #ff7518;
+	position: fixed;
+}
+
+#heading:hover {
+     opacity: 80%;
+}
+
+
+blink {
+  -webkit-animation: 0.1s linear infinite condemned_blink_effect; /* for Safari 4.0 - 8.0 */
+  animation: 0.1s linear infinite condemned_blink_effect;
+}
+
+/* for Safari 4.0 - 8.0 */
+@-webkit-keyframes condemned_blink_effect {
+  0% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+
+@keyframes condemned_blink_effect {
+  0% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+
+#ghost{
+	padding-top: 40px ;
+	padding-left: 730px;
+}
+
+#ghost:hover{
+	opacity: 60%;
+}
